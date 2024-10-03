@@ -12,11 +12,11 @@ Dependiendo de tu sistema operativo, usa uno de los siguientes comandos para act
 
 - En Windows:
   ```
-  venv\Scripts\activate
+  env_data\Scripts\activate
   ```
 - En macOS/Linux:
   ```
-  source venv/bin/activate
+  source env_data/bin/activate
   ```
 3. Instalar los requerimientos  
 Una vez que el entorno virtual esté activado, instala las dependencias del proyecto utilizando el archivo `requirements.txt`:
