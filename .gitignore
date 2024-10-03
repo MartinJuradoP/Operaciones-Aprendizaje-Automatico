@@ -1,0 +1,53 @@
+En sistemas macOS, el archivo `.DS_Store` es un archivo oculto que almacena metadatos del Finder para una carpeta específica. Puedes agregarlo al archivo `.gitignore` para evitar que se incluya en tu repositorio Git. Aquí está la entrada correspondiente en el archivo `.gitignore`:
+
+```gitignore
+#Datos
+
+modulo3/6.2_Ingenieria_de_características/data/vehicles.csv
+
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Carpeta de entorno virtual
+env_pandas/
+env_data/
+# Carpeta de archivos de configuración
+.idea/
+
+# Archivo de dependencias
+requirements.txt
+
+# Archivo de registro
+*.log
+
+# Carpeta de archivos compilados
+dist/
+build/
+
+# Archivo de configuración del editor
+.vscode/
+
+# Carpeta de archivos temporales
+*.swp
+*.swo
+
+# Carpeta de archivos cacheados
+*.cache/
+
+# Archivo de configuración del usuario
+.pytest_cache/
+
+# Carpeta de cobertura de código
+htmlcov/
+
+# Carpeta de archivos generados por Jupyter Notebook
+.ipynb_checkpoints/
+
+# Archivo .DS_Store de macOS
+.DS_Store
+```
+
